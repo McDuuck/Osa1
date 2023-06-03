@@ -1,0 +1,23 @@
+Selain pyytää lupaa hakea html kodin, palvelin palauttaa html selaimeen
+
+Html:ssä linkitettynä css, selain pyytää hakea, palvelin palauttaa css:n
+
+Html:ssä linkitettynä js, selain pyytää hakea, palvelin palauttaa js:n
+
+Selain suorittaa Js koodin joka pyytää json tiedostoa
+
+Datan tullessa selain suorittaa tapahtumakäsittelijän joka renderöi jsonin ruudulle
+
+Lomakkeen lähetys:
+
+Selaimeen ladattu javascript estää perinteisen käytökset(preventDefault()) joka estää sivua latautumasta uudelleen
+
+Js luo pushilla uuden muistiinpanon suoraan sivulle.
+
+Javascript hakee id:llä formin
+
+Estää perus käyttäytymisen (sivun uudelleen latautumisen)
+
+Js luo muistiin panon ja lisää listalle .push komennolla
+
+Js määritelty HTTP POST pyyntö, content-typellä lähetettävä data jsoniksi merkkijonona
